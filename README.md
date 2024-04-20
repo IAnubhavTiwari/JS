@@ -1,2 +1,2 @@
 # JS
-Javascript Codes for revision
+A Code Repo for Javascript
