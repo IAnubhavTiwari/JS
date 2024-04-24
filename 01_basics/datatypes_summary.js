@@ -55,3 +55,32 @@ Return type of variables in JavaScript
        Object  =>  object
 
        */
+
+       // ************************************************** //
+
+       /* Types of memory = Stack and Heap
+
+       stack = primitive and heap = non-primitive */
+
+// example of stack
+       let myGmail = "Anubhavtiwari@gmail.com";
+       let newGmail = myGmail;
+       newGmail = "Anubhavtiwari@google.com";
+
+       console.log(myGmail);
+       console.log(newGmail);
+
+       // example of heap
+
+       let userOne = {
+        upiID: "tiwarianubhav@fam",
+        userEmail: "Anubhavtiwari@google.com"
+       }
+
+       let userTwo = userOne;
+
+       userTwo.userEmail= "AnubhavTiwari@gmail.com";
+
+       console.log(userOne);
+       console.log(userTwo);
+
